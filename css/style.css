@@ -1,3 +1,16 @@
 body{background-color:yellowgreen;}
-footer{position: absolute;bottom: 0;}
-a{background-color: dimgrey;color: whitesmoke;transition:all 1s}
+.stopka{position: absolute;
+    bottom: 0;
+    position: center;
+    }
+a:hover{background-color: dimgrey;color: whitesmoke;transition:all 1s}
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
