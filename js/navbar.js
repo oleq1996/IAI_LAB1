@@ -1,4 +1,6 @@
-let nav = '<ul class="nav justify-content-center">'+
+let nav = '<ul class="nav">'+
+    '<a class="navbar-brand">' +
+    '<i class="fas fa-directions"></i></a>'+
     '<li class="nav-item">'+
     '<a class="nav-link" href="index.html">Home</a></li>'+
 '<li class="nav-item">'+
