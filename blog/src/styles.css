@@ -1,0 +1,38 @@
+body{margin-left:30px;margin-right:30px; margin-top:10px;background-color:#BADEFF;}
+
+.container {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #289a27;
+}
+
+.incorrect {
+    background-color: #c41a21;
+}
+
+.buttons {
+    padding: 10px 10px 10px 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+a:hover{background-color: dimgrey;color: whitesmoke;transition:all 1s}
+a{ color: black; }
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
